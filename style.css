@@ -278,7 +278,8 @@ p >a:hover{
     color: #e7e748;
 }
 footer {
-    background-color: #8F9FBD;
+    background-color: #1a1c22;
+    color: white;
     text-align: center;
     font-size: 0.8;
     padding: 5px;
