@@ -99,7 +99,7 @@ header{
 }
 nav > a {
     text-decoration: none;
-    color: white;
+    color: #dbc12d;
     padding-left: 5px;
     padding-right: 5px;
 }
@@ -400,6 +400,9 @@ footer {
     }
     .line-mobile{
         display: block;
+    }
+    img{
+        border-radius: 0px;
     }
 }
   
