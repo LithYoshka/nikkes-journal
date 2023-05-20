@@ -169,6 +169,10 @@ main {
     max-height: 100%;
     
 }
+.new{
+    width: 100%;
+    margin-bottom: 15px;
+}
 
 img {
     width: 100%;
@@ -291,6 +295,16 @@ footer {
     background-color: var(--cinza, white);
     margin: 15px 0px 15px 0px;
     display: none;
+}
+.new-mobile2{
+    width: 100%;
+    margin: 15px 0px 15px 0px;
+    display: block;
+    text-align: center;
+    background-color: #1a1c22;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
 }
 @media (max-width: 1040px) {
     .flex2 {
