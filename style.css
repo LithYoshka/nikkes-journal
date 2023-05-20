@@ -172,6 +172,8 @@ main {
 .new{
     width: 100%;
     margin: 0px 0px 15px 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     display: block;
     text-align: center;
     background-color: #1a1c22;
@@ -371,6 +373,9 @@ footer {
     .artigo-mobile{
         order: 2;
         width: 100%;
+    }
+    .artigo-mobile >h1{
+        margin-top: 15px;
     }
     .image-box4{
         width: 100%;
