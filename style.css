@@ -275,11 +275,11 @@ p >a{
     color: white;
 }
 p >a:hover{
-    color: #e7e748;
+    color: #dbc12d;
 }
 footer {
     background-color: #1a1c22;
-    color: white;
+    color: #dbc12d;
     text-align: center;
     font-size: 0.8;
     padding: 5px;
