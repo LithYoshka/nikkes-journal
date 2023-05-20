@@ -312,6 +312,9 @@ footer {
     padding-bottom: 5px;
     color: white;
 }
+.artigo-mobile>h1{
+    margin: 0px 0px 15px 0px;
+}
 @media (max-width: 1040px) {
     .flex2 {
       display: block; 
