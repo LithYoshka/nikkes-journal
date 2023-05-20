@@ -263,7 +263,7 @@ div >a {
     color: white;
 }
 .mostra:hover{
-    color: #99CCFF;
+    color: var(--cinza);
 }
 .baixo {
     width: 100%;
