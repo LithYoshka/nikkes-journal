@@ -40,6 +40,7 @@ body {
     background-color: #1a1c22;
     padding-left: 40px;
     padding-right: 40px;
+    padding-top: 15px;
     text-align: center;
     
    
@@ -63,12 +64,23 @@ header{
     min-width: 300px;
     max-width: 500px;
     min-height: 20px;
-    padding-top: 15px;
+    
     padding-bottom: 0;
     display: inline-block;
 }
-.nav-cima-logo > a{
-    color: #dbc12d;
+.nav-cima-logo{
+    color: white;
+}
+.tema-box{
+    display: inline-block;
+    min-width: 300px;
+    max-width: 500px;
+}
+.tema{
+    background-color: #cfd6e4;
+    border-radius: 15px;
+    padding: 5px;
+    color: #1a1c22;
 }
 .nav-baixo-logo {
     min-height: 25px;
@@ -94,12 +106,12 @@ header{
     
 }
 .account {
-    color: #dbc12d;
+    color: white;
     text-decoration: none;
 }
 nav > a {
     text-decoration: none;
-    color: #dbc12d;
+    color: white;
     padding-left: 5px;
     padding-right: 5px;
 }
@@ -116,7 +128,7 @@ header > h1 {
     font-family: var(--fonte-logo);
     letter-spacing: 2px;
     font-size: 3.6em;
-    color: #dbc12d;
+    color: white;
     text-align: center;
     max-width: 500px;
     margin: auto;
@@ -125,7 +137,7 @@ header > h1 {
     height: 1px;
     margin-left: 2%;
     margin-right: 2%;
-    background: #ffffff;
+    background: #cfd6e4;
     
 }
 
@@ -260,7 +272,7 @@ article {
     width: 60%;
     height: 100%;
 }
-div >a {
+div > a {
     text-decoration: none;
     color: white;
 }
@@ -281,7 +293,7 @@ p >a:hover{
 }
 footer {
     background-color: #1a1c22;
-    color: #dbc12d;
+    color: white;
     text-align: center;
     font-size: 0.8;
     padding: 5px;
@@ -343,7 +355,11 @@ footer {
 }
 
 @media (max-width:768px){
-
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+   
     main {
    
         height: 100%;
@@ -410,6 +426,7 @@ footer {
         border-radius: 0px;
     }
 }
+  
 @media (max-width:360px){
 
     body{
