@@ -426,6 +426,9 @@ footer {
     img{
         border-radius: 0px;
     }
+    .line{
+        margin-top: 5px;
+    }
 }
   
 @media (max-width:360px){
@@ -445,5 +448,8 @@ footer {
     }
     .imagem-box-mobile-cima{
         min-width: 360px;
+    }
+    .line{
+        margin-top: 5px;
     }
 }
