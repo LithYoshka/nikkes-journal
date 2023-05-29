@@ -251,7 +251,7 @@ img {
 .p2::before{
     content: '';
     height: 100%;
-    
+        font-family: var(--fonte-padrao);
     position: absolute;
     left: calc(-1rem - 1px);
     border-left: 1px solid var(--cinza,white);
