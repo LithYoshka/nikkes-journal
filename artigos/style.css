@@ -1,0 +1,321 @@
+@font-face {
+    font-family: 'OldLondon';
+    src: url('../fontes/old-london/OldLondon.ttf');
+    
+}
+@font-face {
+    font-family: 'Cheltenham';
+    src: url('../fontes/cheltenham/cheltenham.otf');
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+:root {
+    --rosa-claro: #F26B83;
+    --rosa: #d84d64;
+    --rosa-escuro: #8C3048;
+    --tema-body: white;
+    --tema-header: #cfd6e4;
+    --branco: #F0F2F2;
+    --cinza: #5b606b;
+    --letra-tema: white;
+    --fundo-tema: #1a1c22;
+    --letra-conteudo: black;
+    --fundo-footer: #cfd6e4;
+
+    --fonte-logo: 'OldLondon', sans-serif, 'cursive';
+    --fonte-padrao: 'Cheltenham', monospace, Arial, sans-serif, 'cursive';
+    --fonte-destaque: 'Bebas Neue', sans-serif, 'cursive';
+    --fonte-destaque2: 'Montserrat', sans-serif, 'cursive';
+
+}
+.dark{
+    --tema-header: #1a1c22;
+    --letra-tema: black;
+    --tema-body: #252931;
+    --letra-conteudo: white;
+    --fundo-tema: #cfd6e4;
+    --fundo-footer: #1a1c22;
+    --cinza: #cfd6e4;
+}
+a {
+    text-decoration: none;
+}
+body {
+    background-color: var(--tema-body);
+    font-family: var(--letra-conteudo);
+    width: 100%;
+}
+.display {
+    background-color: var(--tema-header);
+    text-align: center;
+    padding-top: 15px;
+   
+}
+header{
+    background-color: var(--tema-header);
+    
+}
+.display2 {
+    text-align: center;
+    background-color: var(--tema-header);
+}
+.fixed-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    box-shadow: transparent 0px 0px, transparent 0px 0px, rgba(139, 139, 139, 0.15) 1px 3px 6px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  
+/*#dbc12d*/
+.tema{
+    background-color: var(--fundo-tema);
+    border-radius: 15px;
+    padding: 5px;
+    color: var(--letra-tema);
+}
+.nav-cima-logo {
+    min-height: 20px;
+    margin: 0px 40px 0px 40px;
+    padding-bottom: 0;
+    display: inline-block;
+}
+.nav-cima-logo{
+    color: var(--letra-conteudo);
+}
+.tema-box{
+    display: inline-block;
+    margin: 0px 40px 0px 40px;
+}
+.nav-baixo-logo {
+    min-height: 25px;
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    
+}
+.nav-baixo-logo > a {
+    font-size: 1.2em;
+}
+.nav-baixo-logo > a:hover {
+    background-color: #8F9FBD;
+    color: #252931;
+    transition-duration: 0.5s;
+}
+.acco {
+    display: inline-block;
+    margin: 0px 40px 0px 40px;
+    
+}
+.account {
+    color: var(--letra-conteudo);
+    text-decoration: none;
+}
+nav > a {
+    text-decoration: none;
+    color: var(--letra-conteudo);
+    padding-left: 5px;
+    padding-right: 5px;
+}
+header {
+    
+    min-height: 50px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+}
+header > h1 {
+    font-family: var(--fonte-logo);
+    letter-spacing: 2px;
+    font-size: 3.6em;
+    color: var(--letra-conteudo);
+    text-align: center;
+    max-width: 500px;
+    margin: auto;
+}
+h1>a{
+    text-decoration: none;
+    color: var(--letra-conteudo);
+}
+.line {
+    height: 1px;
+    margin-left: 2%;
+    margin-right: 2%;
+    background: #cfd6e4;
+    margin-top: 5px;
+    
+}
+.line2 {
+    height: 1px;
+    background: #cfd6e4;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+main {
+   
+    height: 100%;
+    padding: 10px 40px 0px 40px;
+    margin: 0 auto;
+    min-width: 320px;
+    max-width: 1000px;
+    display: flex;
+    color: var(--letra-conteudo);
+}
+.conteudo{
+    margin-top: 40px;
+    display: flex;
+    
+}
+.conteudo-esquerda{
+    width: 65%;
+    margin: auto;
+}
+
+section>.line {
+    height: 1px;
+    background: #cfd6e4;
+    margin-top: 5px;
+    
+}
+.imagem-artigo{
+    width: 100%;
+}
+img{
+    width: 100%;
+}
+.desc-image-box{
+    width: auto;
+    margin-top: 5px;
+    color: var(--cinza);
+}
+.desc-image{
+    padding-top: 15px;
+    text-align: justify;
+    width: 100%;
+}
+.autor{
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+}
+.autor-icon{
+    width: 6%;
+}
+.artigo-autor{
+    margin-left: 5px;
+}
+.format >p {
+    margin: 15px 0px 15px 0px;
+    font-size: 1.25rem;
+    text-align: justify;
+    text-indent: 25px;
+}
+
+h2{
+    font-size: 1.15rem;
+}
+
+/* .flex {
+    display: flex;
+    width: 100%;
+    
+}
+
+.topo {
+    margin-top: 25px;
+    overflow: hidden;
+    
+} */
+footer {
+    background-color: var(--fundo-footer);
+    color: var(--letra-conteudo);
+    text-align: center;
+    font-size: 0.8;
+    padding: 5px;
+    
+}
+
+article {
+    font-size: 1.1em;
+}
+@media (max-width:768px){
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+    .imagem-artigo{
+        width: 100%;
+    }
+    main {
+   
+        height: 100%;
+        padding: 0px 0px 0px 0px;
+        margin: 0 auto;
+        min-width: 320px;
+        max-width: 900px;
+        color: var(--branco);
+    }
+    section{
+        padding: 0px 20px 0px 20px;
+    }
+    .desc-image-box{
+        margin: 0px 20px 0px 20px;
+    }
+    .flex {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+    .conteudo-esquerda{
+        width: 100%;
+
+    }
+    .display{
+        padding-left: 20px;
+        padding-right: 20px;   
+        max-width: 100%;
+
+        min-height: 30px;
+        
+    }
+    .flex {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+    .nav-cima-logo {
+        height: 0px;
+        display: inline;
+        width: 20%;
+    }
+    .tema-box{
+        display: inline;
+        width: 20%;
+        height: 0px;
+    }
+    .acco{
+        height: 0px;
+        padding-top: 0;
+        display: inline;
+        width: 20%;
+    }
+    
+}
+@media (max-width:360px) {
+    body{
+        width: 360px;
+    }
+}

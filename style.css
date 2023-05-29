@@ -19,9 +19,17 @@
     --rosa-claro: #F26B83;
     --rosa: #d84d64;
     --rosa-escuro: #8C3048;
-    --preto-claro: #252931;
+    --tema-body: white;
+    --tema-header: #cfd6e4;
+    --tema-novidades: #cfd6e4;
+    --letra-novidades: black;
     --branco: #F0F2F2;
-    --cinza: #cfd6e4;
+    --cinza: #5b606b;
+    --letra-tema: white;
+    --fundo-tema: #1a1c22;
+    --letra-conteudo: black;
+    --letra-conteudo-esquerda: black;
+    --fundo-footer: #cfd6e4;
 
     --fonte-logo: 'OldLondon', sans-serif, 'cursive';
     --fonte-padrao: 'Cheltenham', monospace, Arial, sans-serif, 'cursive';
@@ -29,59 +37,63 @@
     --fonte-destaque2: 'Montserrat', sans-serif, 'cursive';
 
 }
-
+.dark{
+    --tema-header: #1a1c22;
+    --tema-novidades: #1a1c22;
+    --letra-tema: black;
+    --letra-novidades: white;
+    --tema-body: #252931;
+    --letra-conteudo: white;
+    --letra-conteudo-esquerda: white;
+    --fundo-tema: #cfd6e4;
+    --fundo-footer: #1a1c22;
+    --cinza: #cfd6e4;
+}
 
 body {
-    background-color: var(--preto-claro);
-    font-family: var(--fonte-padrao);
+    background-color: var(--tema-body);
+    font-family: var(--letra-conteudo);
     width: 100%;
 }
 .display {
-    background-color: #1a1c22;
+    background-color: var(--tema-header);
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 15px;
     text-align: center;
-    
-    
-   
 }
 header{
-    background-color: #1a1c22;
+    background-color: var(--tema-header);
     
 }
 .display2 {
     padding-left: 40px;
     padding-right: 40px;
     text-align: center;
-    background-color: #1a1c22;
+    background-color: var(--tema-header);
    
    
 }
 /*#dbc12d*/
 
+.tema{
+    background-color: var(--fundo-tema);
+    border-radius: 15px;
+    padding: 5px;
+    color: var(--letra-tema);
+}
 .nav-cima-logo {
-    
-    min-width: 300px;
-    max-width: 500px;
     min-height: 20px;
-    
+    margin: 0px 40px 0px 40px;
     padding-bottom: 0;
     display: inline-block;
 }
 .nav-cima-logo{
-    color: white;
+    color: var(--letra-conteudo);
 }
 .tema-box{
     display: inline-block;
-    min-width: 300px;
-    max-width: 500px;
-}
-.tema{
-    background-color: #cfd6e4;
-    border-radius: 15px;
-    padding: 5px;
-    color: #1a1c22;
+    margin: 0px 40px 0px 40px;
 }
 .nav-baixo-logo {
     min-height: 25px;
@@ -102,17 +114,16 @@ header{
 }
 .acco {
     display: inline-block;
-    min-width: 300px;
-    max-width: 500px;
+    margin: 0px 40px 0px 40px;
     
 }
 .account {
-    color: white;
+    color: var(--letra-conteudo);
     text-decoration: none;
 }
 nav > a {
     text-decoration: none;
-    color: white;
+    color: var(--letra-conteudo);
     padding-left: 5px;
     padding-right: 5px;
 }
@@ -129,10 +140,17 @@ header > h1 {
     font-family: var(--fonte-logo);
     letter-spacing: 2px;
     font-size: 3.6em;
-    color: white;
+    color: var(--letra-conteudo);
     text-align: center;
     max-width: 500px;
     margin: auto;
+}
+h1>a{
+    text-decoration: none;
+    
+}
+.color2{
+    color: var(--letra-conteudo);
 }
 .line {
     height: 1px;
@@ -149,7 +167,7 @@ main {
     margin: 0 auto;
     min-width: 320px;
     max-width: 1000px;
-    color: var(--branco);
+    color: var(--letra-tema);
 }
 
 .flex {
@@ -189,9 +207,8 @@ main {
     padding-bottom: 5px;
     display: block;
     text-align: center;
-    background-color: #1a1c22;
-    
-    color: white;
+    background-color: var(--tema-novidades);
+    color: var(--letra-novidades);
 }
 
 img {
@@ -249,9 +266,14 @@ img {
     margin: 15px 0px 15px 0px;
     text-align: justify;
     text-indent: 25px;
+    
+}
+.format{
+    color: var(--letra-conteudo-esquerda);
 }
 article > h1 {
     margin-top: 15px;
+    color: var(--letra-conteudo-esquerda);
 }
 article {
     font-size: 1.1em;
@@ -260,7 +282,6 @@ article {
     height: 100%;
     overflow: auto;
 }
-
 .order {
     position: relative;
     width: 100%;
@@ -272,12 +293,15 @@ article {
 .artigo {
     width: 60%;
     height: 100%;
+    color: var(--letra-conteudo-esquerda);
 }
 div > a {
     text-decoration: none;
-    color: white;
+    color: var(--letra-conteudo);
 }
-.mostra:hover{
+
+:hover.mostra>h1, 
+:hover.mostra>p{
     color: var(--cinza);
 }
 .baixo {
@@ -287,14 +311,14 @@ div > a {
 }
 p >a{
     text-decoration: none;
-    color: white;
+    color: var(--letra-conteudo);
 }
 p >a:hover{
     color: #dbc12d;
 }
 footer {
-    background-color: #1a1c22;
-    color: white;
+    background-color: var(--fundo-footer);
+    color: var(--letra-conteudo);
     text-align: center;
     font-size: 0.8;
     padding: 5px;
@@ -322,10 +346,10 @@ footer {
     margin: 15px 0px 15px 0px;
     display: block;
     text-align: center;
-    background-color: #1a1c22;
+    background-color: var(--tema-header);
     padding-top: 5px;
     padding-bottom: 5px;
-    color: white;
+    color: var(--letra-conteudo);
 }
 .artigo-mobile>h1{
     margin: 0px 0px 15px 0px;
@@ -374,6 +398,24 @@ footer {
         display: flex;
         width: 100%;
         flex-direction: column;
+    }
+    .nav-cima-logo {
+        height: 0px;
+        display: inline;
+        width: 20%;
+    }
+    .tema-box{
+        display: inline;
+        width: 20%;
+        height: 0px;
+    }
+    .acco{
+        height: 0px;
+        display: inline;
+        width: 20%;
+    }
+    .display{
+        min-height: 30px;
     }
     .topo{
         width: 100%;
