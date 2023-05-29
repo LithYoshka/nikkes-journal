@@ -29,7 +29,7 @@
     --fundo-footer: #cfd6e4;
 
     --fonte-logo: 'OldLondon', sans-serif, 'cursive';
-    --fonte-padrao: 'Cheltenham', monospace, Arial, sans-serif, 'cursive';
+    --fonte-padrao: 'Cheltenham', Times New Roman, monospace, Arial, sans-serif, 'cursive';
     --fonte-destaque: 'Bebas Neue', sans-serif, 'cursive';
     --fonte-destaque2: 'Montserrat', sans-serif, 'cursive';
 
@@ -172,6 +172,7 @@ main {
     min-width: 320px;
     max-width: 1000px;
     display: flex;
+    font-family: var(--fonte-padrao);
     color: var(--letra-conteudo);
 }
 .conteudo{
