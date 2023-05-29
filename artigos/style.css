@@ -48,7 +48,7 @@ a {
 }
 body {
     background-color: var(--tema-body);
-    font-family: var(--letra-conteudo);
+    font-family: var(--fonte-padrao);
     width: 100%;
 }
 .display {
