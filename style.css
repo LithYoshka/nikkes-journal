@@ -168,7 +168,7 @@ main {
     min-width: 320px;
     max-width: 1000px;
     color: var(--letra-tema);
-    font-style: var(--fonte-padrao);
+    font-family: var(--fonte-padrao);
 }
 
 .flex {
