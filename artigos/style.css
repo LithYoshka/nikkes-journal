@@ -313,6 +313,9 @@ article {
     .autor-icon{
         width: 12%;
     }
+    header>h1{
+    width: 100%;
+    }
     
 }
 @media (max-width:360px) {
