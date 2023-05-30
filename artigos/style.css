@@ -49,8 +49,10 @@ a {
 body {
     background-color: var(--tema-body);
     font-family: var(--fonte-padrao);
-    color: var(--letra-conteudo);
     width: 100%;
+}
+article{
+    color: var(--letra-conteudo);
 }
 .display {
     background-color: var(--tema-header);
