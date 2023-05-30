@@ -140,7 +140,8 @@ header > h1 {
     letter-spacing: 2px;
     font-size: 3.6em;
     color: var(--letra-conteudo);
-    text-align: center;
+    text-align: center;
+
     margin: auto;
 }
 h1>a{
@@ -211,7 +212,6 @@ img{
 }
 .autor-icon{
     width: 6%;
-    display: flex;
 }
 .artigo-autor{
     margin-left: 5px;
