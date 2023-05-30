@@ -211,6 +211,7 @@ img{
 }
 .autor-icon{
     width: 6%;
+    display: flex;
 }
 .artigo-autor{
     margin-left: 5px;
