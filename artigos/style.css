@@ -311,6 +311,12 @@ article {
         display: inline;
         width: 20%;
     }
+    .autor{ 
+     width: 80%;
+    } 
+    .autor-icon{ 
+     width: 20%; 
+    }
     header>h1{
     width: 100%;
     }
