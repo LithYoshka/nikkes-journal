@@ -311,7 +311,20 @@ article {
         display: inline;
         width: 20%;
     }
-   
+    .autor{
+        width: 100%;
+        margin-top: 25px;
+        display: inline;
+    }
+    .autor-icon{
+        width: 12%;
+        margin-top: 15px;
+       
+    }
+    .artigo-autor{
+        width: auto;
+        margin-left: 0px;
+    }
     header>h1{
     width: 100%;
     }
