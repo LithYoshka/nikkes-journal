@@ -49,6 +49,7 @@ a {
 body {
     background-color: var(--tema-body);
     font-family: var(--fonte-padrao);
+    color: var(--letra-conteudo);
     width: 100%;
 }
 .display {
@@ -173,7 +174,7 @@ main {
     max-width: 1000px;
     display: flex;
     font-family: var(--fonte-padrao);
-    color: var(--letra-conteudo);
+    
 }
 .conteudo{
     margin-top: 40px;
